@@ -17,7 +17,10 @@ It intentionally excludes authentication, payments and gym business rules.
 Use the Vercel Hobby plan and one Supabase Free project for this validation.
 Do not enable paid add-ons, custom domains, extra compute or point-in-time
 recovery. Free services provide no production SLA; reassess the plans before
-onboarding real gym users.
+onboarding real gym users. Vercel Hobby is restricted to personal,
+non-commercial use, so it is only appropriate while this spike remains a
+private validation project. A commercial gym launch requires another eligible
+hosting plan or provider.
 
 ## 1. Local runtime
 

@@ -54,5 +54,8 @@ mobile and desktop delivery with one deployment and no app-store process.
 - Free tiers are suitable for validation but provide no production service-level
   commitment; pricing, regions, backups and operational requirements must be
   reviewed before onboarding real users.
+- Vercel Hobby permits personal, non-commercial use only. It cannot host the
+  commercial gym service; production requires an eligible paid plan or another
+  provider.
 - Vercel and hosted Supabase remain replaceable if the spike exposes an
   unacceptable constraint.
