@@ -67,16 +67,17 @@ questions. Do not silently turn a proposal into a requirement.
 
 ## Verification
 
-The application toolchain has not been initialized yet. Until commands are
-defined, always run:
+Use Node 24 (`nvm use`) and install dependencies with `npm install`. Before
+requesting review, run:
 
 ```bash
+npm run typecheck
+npm run build
 git diff --check
 ```
 
-Once the project scripts exist, update this section with the canonical install,
-format, lint, type-check, test and build commands. Run all checks relevant to the
-changed area before requesting review and report anything that could not run.
+Run all checks relevant to the changed area and report anything that could not
+run. Add lint and test commands here when those tools are introduced.
 
 ## Definition of done
 

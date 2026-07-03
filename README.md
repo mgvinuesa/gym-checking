@@ -16,6 +16,7 @@ seleccionado ni inicializado un framework de aplicación.
 ## Documentación
 
 - [Guía de contribución](CONTRIBUTING.md)
+- [Guía del deployment spike](docs/deployment/deployment-spike.md)
 - [Especificación funcional](docs/product/functional-specification.md)
 - [Glosario de dominio](docs/product/glossary.md)
 - [Visión técnica](docs/architecture/technical-vision.md)

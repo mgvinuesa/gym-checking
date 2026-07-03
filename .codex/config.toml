@@ -1,0 +1,20 @@
+[mcp_servers.vercel]
+url = "https://mcp.vercel.com"
+
+[mcp_servers.supabase]
+url = "https://mcp.supabase.com/mcp?project_ref=xvnlpoghqpazolvwngnn&read_only=true&features=database,debugging,development,docs"
+enabled = true
+required = false
+default_tools_approval_mode = "prompt"
+enabled_tools = [
+  "list_tables",
+  "list_extensions",
+  "list_migrations",
+  "execute_sql",
+  "get_logs",
+  "get_advisors",
+  "get_project_url",
+  "get_publishable_keys",
+  "generate_typescript_types",
+  "search_docs",
+]
