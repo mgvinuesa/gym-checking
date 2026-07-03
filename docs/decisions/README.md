@@ -10,6 +10,10 @@ los ADR explican por qué se elige una solución técnica concreta.
 - Estados: propuesta, aceptada, reemplazada o descartada.
 - Una decisión reemplazada se conserva y enlaza a su sucesora.
 
+## Decisiones
+
+- [ADR-0001: Stack for the deployment spike](0001-deployment-spike-stack.md)
+
 ## Plantilla
 
 ```md

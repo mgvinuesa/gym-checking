@@ -85,6 +85,19 @@ it were agreed product behaviour.
 - Administrative overrides remain explicit and auditable.
 - Secrets and personal data are not committed.
 
-Canonical commands will be added here when the application toolchain is
-initialized. Until then, at minimum run `git diff --check` and review the complete
-diff before requesting review.
+Use Node 24 and install the locked dependencies before development:
+
+```bash
+nvm use
+npm ci
+```
+
+Before requesting review, run:
+
+```bash
+npm run typecheck
+npm run build
+git diff --check
+```
+
+Review the complete diff and report any check that could not be executed.
