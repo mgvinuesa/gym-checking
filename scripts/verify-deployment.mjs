@@ -5,9 +5,15 @@ if (!deploymentUrl) {
 }
 
 const healthUrl = new URL("/api/health", deploymentUrl);
+const protectionBypassSecret =
+  process.env.VERCEL_AUTOMATION_BYPASS_SECRET?.trim();
+
 const response = await fetch(healthUrl, {
   headers: {
     "User-Agent": "gym-checking-deployment-verifier/1.0",
+    ...(protectionBypassSecret
+      ? { "x-vercel-protection-bypass": protectionBypassSecret }
+      : {}),
   },
 });
 
